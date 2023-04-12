@@ -1,0 +1,31 @@
+.feed_container {
+  width: 1400px;
+  margin: 3rem auto;
+  padding: 1rem;
+  border: 1px solid rgba(90, 90, 90, 0.3);
+}
+
+.feed_container > input {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border-color: transparent;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+::-webkit-input-placeholder {
+  color: #000;
+  font-size: 1rem;
+}
+
+.feed_container > button {
+  padding: 10px 20px;
+  margin-left: 1rem;
+  border-radius: 20px;
+  outline: none;
+  border-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  background: transparent;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+}

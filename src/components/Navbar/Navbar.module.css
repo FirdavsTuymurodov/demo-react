@@ -1,0 +1,33 @@
+.navbar {
+  max-width: 1400px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgba(90, 90, 90, 0.3);
+}
+
+.navbar > h2 {
+  font-size: 2rem;
+  color: rgb(45, 45, 45);
+}
+
+.navbar > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar > ul > li {
+  font-size: 1.2rem;
+  color: rgb(45, 45, 45);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.navbar > ul > li:hover {
+  color: #000;
+}
